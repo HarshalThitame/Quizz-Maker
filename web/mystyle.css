@@ -1,0 +1,83 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    /*background-image: url("img/background.eps");*/
+}
+
+
+
+.sub-card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    /*padding: 44px 80px 18px 36px;*/
+    cursor: pointer;
+}
+
+.sub-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Amaranth|Dancing+Script");
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: #43cea2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #43cea2, #185a9d);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #43cea2, #185a9d);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family: 'Dancing Script', cursive;
+}
+
+.heading {
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+
+.primary-background
+{
+    background-color: #2196f3 !important;
+}
+.wrapper {
+    background:
+        linear-gradient(pink, transparent),
+        linear-gradient(to top left, #f48fb1, transparent),
+        linear-gradient(to top right, #e91e63, transparent);
+    background-blend-mode: screen;
+
+    .message2
+    {
+        display: none;
+    }
+
+
+    .rotate {
+        animation: rotation 3s infinite linear;
+    }
+
+    @keyframes rotation {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+
+
+
+

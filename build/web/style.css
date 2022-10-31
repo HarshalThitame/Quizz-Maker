@@ -1,0 +1,30 @@
+.my-custom-scrollbar {
+    position: relative;
+    max-height: 600px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.table-bg
+{
+    background: linear-gradient(45deg, #8ef0ab 0%, #ef8ed2 100%);
+}
+
+table th{
+    min-height: 50px;
+
+}
+
+.bg1{
+    background: linear-gradient(225deg, #9fc144 0%, #f9aeae 100%)
+}
+
+.bg2{
+    background: linear-gradient(225deg, #e8ffa8 0%, #aef9b3 100%)
+}
+
+.bg3{
+    background: linear-gradient(225deg, #a8fff9 0%, #8280ff 100%)
+}
